@@ -56,6 +56,7 @@ body {
 .amazon-logo {
     width: 65vh;
     padding-top: 5px;
+    padding-left: 2em;
 }
 
 #header-img {
@@ -138,6 +139,31 @@ body {
 }
 
 #features-text-container {
+    height: 100vh;
     width: 45ch;
-    padding: 4rem;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features-text-container h1 {
+    font-size: 3rem;
+}
+
+.product-feature {
+    margin-top: 2em;
+}
+
+.feature-description {
+    margin-top: .3em;
+}
+
+#features-text-container h1, h3 {
+    color: var(--text-dark-grey);
+}
+
+#features-photo {
+    height: 90%;
+    width: 90%;
 }
