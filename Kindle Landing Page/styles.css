@@ -1,0 +1,143 @@
+:root {
+    --kindle-orange:#F2941B;
+    --kindle-navy: #05182E;
+    --text-dark-grey: #333333;
+    --base-color: #F7ECE1;
+}
+
+*, ::after, ::before {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.3;
+}
+
+/* Links */
+
+/* Header */
+
+#header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 80px;
+    padding-right: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 1.4rem;
+    margin-top: 0;
+}
+
+#nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 15rem;
+    padding-right: 2em
+}
+
+#nav-items a {
+    color: var(--text-dark-grey);
+    text-decoration: none;
+}
+
+#nav-items a:hover{
+    color: var(--kindle-orange);
+}
+
+.amazon-logo {
+    width: 65vh;
+    padding-top: 5px;
+}
+
+#header-img {
+    height: 100%;
+    width: 100%;
+    max-width: 100px;
+}
+
+/* Landing Page */
+#home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: auto 3px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#landing-photo {
+    height: 100%;
+    width: 100%;
+}
+
+#landing-copy{
+    color: var(--text-dark-grey);
+}
+
+
+#landing-text-container{
+    width: 45ch;
+}
+
+#landing-copy h1 {
+    font-size: 3.8rem;
+}
+
+#landing-copy p{
+    margin-top: 10px;
+    line-height: 1.5
+}
+
+#landing-cta{
+    margin-top: 4em;
+}
+
+#landing-cta form {
+    margin-top: .5rem;
+}
+
+#landing-cta h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+#email {
+    height: 1.8rem;
+    padding-left: 1em;
+}
+
+#submit {
+    height: 1.9rem;
+    width: 9em;
+    border-style: none;
+    background-color: var(--kindle-orange);
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+/* Features */
+#features {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--base-color);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+#features-text-container {
+    width: 45ch;
+    padding: 4rem;
+}

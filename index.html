@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindle Landing Page</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="header">
+            <div class="amazon-logo">
+            <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" alt="amazon-logo">
+        </div>
+        <nav id="nav-bar">
+            <ul id="nav-items">
+                <li class="nav-link"><a href="#home">Home</a></li>
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="landing-photo-container">
+            <img src="https://cdn.shopify.com/s/files/1/0442/2749/4055/products/Kindel-1_099d59cc-85f6-4298-9a0e-804f4d649917.png" width="800px" id="landing-photo"> 
+        </div>
+        <div id="landing-text-container">
+            <div id="landing-copy">
+                <h1>Reach Your Reading Goals</h1>
+                <p>Setting a New Years’ Resolution to read more, but don’t want to lug around a book? Amazon Kindle allows you to store your reading list in a compact device that’s lighter than your phone</p>
+            </div>  
+            <div id="landing-cta">
+                <h2>Order Amazon Kindle Today</h2>
+                <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input class="email" id="email" placeholder="Enter your email here" type="email" name="email">
+                    <input class="submit" id="submit" type="submit" value="Order Now" name="submit">
+                </form>
+            </div>
+        </div>  
+    </section>
+    <section id="features">
+        <div id="features-text-container">
+            <h1>Make Reading Easier for You</h1>
+            <div class="product-feature">
+                <h3 class="feature-item">Paper-like Screen</h3>
+                    <p class="feature-description">Read comfortably with a glare-free, paper-like display. The adjustable front light and dark mode make reading effortless, day and night.
+                    </p>
+            </div>
+            <div class="product-feature">
+                <h3 class="feature-item">Large Storage Capacity</h3>
+                <p class="feature-description">Now with 16 GB to store thousands of books – Double the storage capacity of the previous generation.
+                </p>
+            </div>
+            <div class="product-feature">
+                <h3 class="feature-item">Weeks-long Battery</h3>
+                    <p class="feature-description">Now with extended battery life – A single charge via USB-C lasts up to 6 weeks.</p>
+            </div>
+        </div>
+        <div class="features-photo-container">
+            <img src="/assets/kindle-features.png" alt="kindle-features" id="features-photo">
+        </div>
+    </section>
+    <section id="pricing">
+        <img src="https://cdn.shopify.com/s/files/1/0442/2749/4055/products/Kindel-1_099d59cc-85f6-4298-9a0e-804f4d649917.png" width="800px" id="pricing-photo">
+        <h1>Amazon Kindle</h1>
+        <ul>
+            <li>Now with 16 GB to store thousands of books – Double the storage capacity of the previous generation.</li>
+            <li>Find new stories – With Kindle Unlimited, get unlimited access to over 2 million titles, thousands of audiobooks, and more.</li>
+            <li>Designed with sustainability in mind. This Kindle uses 30-75% recycled plastics and 90% recycled magnesium and has 100% recyclable device packaging.</li>
+        </ul> 
+        <h2>Get yours today</h2>
+        <form class="form" action="https://www.freecodecamp.com/email-submit">
+            <input class="email" placeholder="Enter your email here" type="email" name="email">
+            <input class="submit" type="submit" value="Order Now" name="submit">
+        </form>
+    </section>
+</body>
+</html>
